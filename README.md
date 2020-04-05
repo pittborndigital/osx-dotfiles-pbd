@@ -1,5 +1,7 @@
 # Dotfile Management
 
+## Setup
+
 1. Clone or fork the repo
 
 2. Install dependencies

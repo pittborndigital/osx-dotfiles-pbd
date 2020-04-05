@@ -3,16 +3,12 @@ import config from "../dotconfig.json";
 
 export const HOME_DIRECTORY = `${process.env.HOME}`;
 
-export const REPO_DOT_FILE_DIR = path.join(
-  __dirname,
-  "..",
-  config["repo-folder"]
-);
+export const REPO_DOT_FILE_DIR = path.join(__dirname, "..", "dotfiles");
 
 export const BACKUP_DOT_FILE_DIR = path.join(
   __dirname,
   "..",
-  config["backup-folder"]
+  "backup-dotfiles"
 );
 
 export const GIT_REPO = config["git-repo"];

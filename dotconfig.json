@@ -1,6 +1,4 @@
 {
   "include": [".zshrc", ".bashrc", ".gitconfig", ".rndebuggerrc", ".hyperjs"],
-  "git-repo": "git@github.com:pittborndigital/pbd-dotfiles.git",
-  "repo-folder": "./dotfiles",
-  "backup-folder": "./backup-dotfiles"
+  "git-repo": "git@github.com:pittborndigital/pbd-dotfiles.git"
 }

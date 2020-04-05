@@ -16,5 +16,11 @@
   "dependencies": {
     "rimraf": "^3.0.2",
     "shelljs": "^0.8.3"
-  }
+  },
+  "keywords": [
+    "dotfiles",
+    "dot",
+    "sync",
+    "manage"
+  ]
 }

@@ -6,6 +6,10 @@
 
 2. Install dependencies
 
+```
+npm install
+```
+
 3. Set configuration
 
 Edit `dotfile.json` and put your settings in.

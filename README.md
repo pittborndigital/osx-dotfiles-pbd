@@ -19,13 +19,13 @@ Edit `dotfile.json` and put your settings in.
 | include  | Yes      | Array of dotfile names to sync.          | [".zshrc", ".bashrc", ".gitconfig"]             |
 | git-repo | Yes      | Git URL where dotfiles should be stored. | git@github.com:pittborndigital/pbd-dotfiles.git |
 
-## Backup snapshot of dotfiles
+## Backup dotfiles to Git
 
 ```
 npm run push
 ```
 
-## Set dotfiles from backup
+## Import dotfiles from Git
 
 ```
 npm run pull

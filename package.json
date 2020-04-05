@@ -2,7 +2,8 @@
   "name": "osx-dotfiles-pbd",
   "version": "0.0.1",
   "scripts": {
-    "get-files": "babel-node scripts/get-dot-files-from-fs.js"
+    "push": "babel-node scripts/push-dot-files.js",
+    "pull": "babel-node scripts/pull-dot-files.js"
   },
   "author": "@pittborndigital",
   "license": "ISC",
@@ -11,5 +12,9 @@
     "@babel/core": "^7.9.0",
     "@babel/node": "^7.8.7",
     "@babel/preset-env": "^7.9.0"
+  },
+  "dependencies": {
+    "rimraf": "^3.0.2",
+    "shelljs": "^0.8.3"
   }
 }

@@ -1,21 +1,12 @@
 # Dotfile Management
 
-1. Clone the repo
-
-```
-git clone git@github.com:pittborndigital/osx-dotfiles-pbd.git
-cd osx-dotfiles-pbd
-```
+1. Clone or fork the repo
 
 2. Install dependencies
 
-```
-npm install
-```
-
 3. Set configuration
 
-Edit dotfile.json and put your settings in.
+Edit `dotfile.json` and put your settings in.
 
 | Option   | Required | Description                              | Example                                         |
 | -------- | -------- | ---------------------------------------- | ----------------------------------------------- |

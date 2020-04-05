@@ -1,0 +1,15 @@
+{
+  "name": "osx-dotfiles-pbd",
+  "version": "0.0.1",
+  "scripts": {
+    "get-files": "babel-node scripts/get-dot-files-from-fs.js"
+  },
+  "author": "@pittborndigital",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/node": "^7.8.7",
+    "@babel/preset-env": "^7.9.0"
+  }
+}
